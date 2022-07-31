@@ -46,3 +46,19 @@
   background: #bb0000;
   color: white;
 }
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-github {
+  background: $FSB_GITHUB;
+  color: #333;
+}
+
