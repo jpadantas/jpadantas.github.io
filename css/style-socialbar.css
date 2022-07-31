@@ -52,13 +52,8 @@
   color: white;
 }
 
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
-
-.fa-github {
-  background: $FSB_GITHUB;
+.github {
+  background: black;
   color: #333;
 }
 
