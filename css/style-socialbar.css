@@ -47,13 +47,18 @@
   color: white;
 }
 
-.fa-instagram {
-  background: #125688;
+.instagram {
+  background: #dd4b39;
   color: white;
 }
 
 .github {
   background: black;
   color: #333;
+}
+
+.google-scholar {
+  background: #1E88E5;
+  color: white;
 }
 
