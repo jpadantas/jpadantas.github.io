@@ -85,4 +85,15 @@
         display: inline-block;
         padding: 8px 16px;
     }
+    
+    .icon-bar a img {
+        width: 24px; /* You can adjust this value */
+        height: 24px; /* You can adjust this value */
+        margin: 0;
+    }
+    
+    .icon-bar .googlescholar, .icon-bar .researchgate {
+        padding: 11px 11px; /* Adjust padding as needed */
+    }
 }
+
