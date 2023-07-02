@@ -1,10 +1,13 @@
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+
 .icon-bar {
   position: fixed;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  z-index: 9999; /* Ensure it stays on top of other content */
+  left: 10px;
 }
 
 /* Style the icon bar links */
@@ -64,4 +67,22 @@
 .researchgate  {
 
   background: #04D4AC;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .icon-bar {
+        top: 0;
+        left: 0;
+        transform: none;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .icon-bar a {
+        display: inline-block;
+        padding: 8px 16px;
+    }
 }
