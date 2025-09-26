@@ -1,0 +1,38 @@
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #fff;
+  margin: 8vh auto;
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.modal .close {
+  border: 0;
+  background: transparent;
+  font-size: 28px;
+  float: right;
+  cursor: pointer;
+  line-height: 1;
+}
+
+#bibtexCopyBtn {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#bibtexCopyBtn:active {
+  transform: translateY(1px);
+}
