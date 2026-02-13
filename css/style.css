@@ -437,7 +437,7 @@ img[src*="ita-logo"] {
 .research-grid {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2.5rem;
     margin-top: 2rem;
     align-items: center;
     /* Center cards in the page */
@@ -447,8 +447,8 @@ img[src*="ita-logo"] {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    margin-bottom: 3rem;
-    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
     border-bottom: 1px solid var(--border-color);
     width: 100%;
     max-width: 720px;
