@@ -877,6 +877,11 @@ img[src*="ita-logo"] {
         gap: 1rem;
     }
 
+    .site-header {
+        backdrop-filter: none;
+        background: rgba(255, 255, 255, 1);
+    }
+
     .main-content {
         padding: 2rem 1rem;
     }
