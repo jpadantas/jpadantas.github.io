@@ -896,10 +896,24 @@ img[src*="ita-logo"] {
         flex-direction: column;
     }
 
-    .pub-thumb img,
-    .project-thumb img {
+    .pub-thumb img {
         width: 100%;
         max-width: 250px;
+    }
+
+    .project-thumb {
+        aspect-ratio: auto;
+        /* Allow height to adjust for images on mobile */
+        min-height: auto;
+    }
+
+    .project-thumb img {
+        width: 100%;
+        max-width: 100%;
+        /* Fill the container width */
+        height: auto;
+        object-fit: contain;
+        /* Ensure full image is visible without cropping */
     }
 }
 

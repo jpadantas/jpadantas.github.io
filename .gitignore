@@ -1,0 +1,14 @@
+# Virtual environment
+env/
+venv/
+.env/
+
+# CV source files (LaTeX)
+cv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary scripts
+*.py
