@@ -158,6 +158,38 @@ a:hover {
     letter-spacing: -0.02em;
     line-height: 1.1;
     color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.3em;
+    width: 100%;
+}
+
+.name-side {
+    flex: 1;
+    min-width: 0;
+}
+
+.name-first {
+    text-align: right;
+}
+
+.name-last {
+    text-align: left;
+}
+
+.name-initials {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* Ensure centering on mobile */
+@media (max-width: 600px) {
+    .profile-name {
+        font-size: 2.5rem;
+        flex-wrap: wrap;
+        gap: 0.2em;
+    }
 }
 
 .profile-separator {
@@ -205,8 +237,8 @@ a:hover {
 }
 
 /* Balance ITA logo which has a different visual density */
-img[src*="ita-logo"] {
-    height: 38px;
+img[src*="ita.png"] {
+    height: 35px;
 }
 
 .profile-logos a:hover .institution-logo {
