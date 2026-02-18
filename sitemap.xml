@@ -30,4 +30,37 @@
     <lastmod>2026-02-15</lastmod>
     <priority>0.70</priority>
   </url>
+  <!-- Main PDFs for Search Console HTTPS Validation -->
+  <url>
+    <loc>https://www.joaopadantas.com/files/dantas2025deep.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/dantas2025autonomous.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/murca2025open.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/dantas2025asa.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/dantas2025simulation.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/dantas2025poker.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/costa2025simulation.pdf</loc>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/unoda_sipri_award_2024.pdf</loc>
+    <priority>0.60</priority>
+  </url>
 </urlset>
