@@ -63,4 +63,25 @@
     <loc>https://www.joaopadantas.com/files/unoda_sipri_award_2024.pdf</loc>
     <priority>0.60</priority>
   </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/costa2023analysis.pdf</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/patrikar2025image.pdf</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/files/viscardi2024manobra.pdf</loc>
+    <priority>0.50</priority>
+  </url>
+  <!-- Certificates to resolve 404 redirections in Google's index -->
+  <url>
+    <loc>https://www.joaopadantas.com/certificates/2024_WSC_Diversity_Award.pdf</loc>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://www.joaopadantas.com/certificates/2024_LACORO_Best_Poster.pdf</loc>
+    <priority>0.40</priority>
+  </url>
 </urlset>
