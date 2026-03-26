@@ -12,3 +12,4 @@ __pycache__/
 
 # Temporary scripts
 *.py
+_extra/
