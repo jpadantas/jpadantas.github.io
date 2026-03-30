@@ -128,11 +128,4 @@
   <url><loc>https://www.joaopadantas.com/certificates/2025_MD_PhD_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
   <url><loc>https://www.joaopadantas.com/certificates/2025_WSC_Simulation_Challenge.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
 
-  <!-- Mappings to resolve 404 indexing errors (pointing to new locations) -->
-  <url><loc>https://www.joaopadantas.com/files/dantas2012estudo_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.40</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025asa.pdf</loc><changefreq>yearly</changefreq><priority>0.40</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/araujo2025analise.pdf</loc><changefreq>yearly</changefreq><priority>0.40</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2010_ITA_Entrance_Exam.pdf</loc><changefreq>yearly</changefreq><priority>0.40</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2024_WSC_Diversity_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.40</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2019_IYMC_Ambassador.pdf</loc><changefreq>yearly</changefreq><priority>0.40</priority></url>
 </urlset>
