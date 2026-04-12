@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Page Not Found | Joao P. A. Dantas</title>
+    <link href="img/icons/ieav.ico" rel="icon" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script>
+        // Redirect map: old URLs → new URLs
+        const redirects = {
+            '/files/dantas2023asa-simaas.pdf': '/files/dantas2025asasimaas.pdf',
+            '/files/dantas2022asa.pdf': '/files/dantas2025asa.pdf',
+            '/files/dantas2012study_slides.pdf': '/files/dantas2012estudo_slides.pdf',
+            '/files/aprovado_no_ita.pdf': '/certificates/2010_ITA_Entrance_Exam.pdf',
+            '/files/figueiredo2025analise.pdf': '/files/araujo2025analise.pdf',
+            '/files/wsc_diversity_award_2024.pdf': '/certificates/2024_WSC_Diversity_Award.pdf',
+            '/files/iymc.pdf': '/certificates/2019_IYMC_Ambassador.pdf',
+        };
+
+        (function () {
+            const path = window.location.pathname;
+            if (redirects[path]) {
+                window.location.replace(redirects[path]);
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <ul class="site-nav">
+                <li><a href="./">About</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="awards.html">Awards</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="files/Joao_Dantas_CV.pdf">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content" style="text-align: center; padding-top: 6rem; padding-bottom: 6rem;">
+        <h1 class="page-title" style="font-size: 6rem; margin-bottom: 0.5rem; opacity: 0.15;">404</h1>
+        <p style="font-size: 1.3rem; font-weight: 600; margin-bottom: 1rem; color: var(--primary-color);">
+            Page Not Found
+        </p>
+        <p style="color: var(--secondary-color); margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+            The page you are looking for may have been moved, renamed, or is no longer available.
+        </p>
+        <a href="./"
+            style="display: inline-block; padding: 0.7rem 2rem; background: var(--primary-color); color: white; text-decoration: none; border-radius: 6px; font-weight: 500; transition: opacity 0.2s ease;"
+            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+            Go to Homepage
+        </a>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-icons">
+            <a href="mailto:jpdantas@ita.br" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/jpdantas/" aria-label="LinkedIn" title="LinkedIn"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/jpadantas" aria-label="GitHub" title="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://scholar.google.com/citations?user=RjeTT9cAAAAJ&hl=en" aria-label="Google Scholar"
+                title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        </div>
+        <p class="copyright">© Joao P. A. Dantas 2026–present</p>
+    </footer>
+</body>
+
+</html>

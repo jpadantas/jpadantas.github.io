@@ -3,129 +3,38 @@
   <!-- Main Pages -->
   <url>
     <loc>https://www.joaopadantas.com/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.joaopadantas.com/publications.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.joaopadantas.com/software.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.joaopadantas.com/research.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.joaopadantas.com/awards.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.joaopadantas.com/media.html</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
-
-  <!-- Publications (files/) -->
-  <url><loc>https://www.joaopadantas.com/files/Joao_Dantas_CV.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/araujo2025analise.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/araujo2025analise_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/costa2021formation.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/costa2023analysis.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/costa2025simulation.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2012estudo.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2012estudo_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2013aquisicao.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2013aquisicao_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2015hexacoptero.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2017teoria.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2018analise.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2018apoio.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2020modelo.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2021engagement.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2021engagement_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2021enhanced.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2021enhanced_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2021weapon.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2021weapon_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2022machine.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2022modelo.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2022supervised.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2022supervised_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2023autonomous.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2023autonomous_poster.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2023autonomous_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2023real.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2023real_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024asapy.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024asapy_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024autonomous.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024autonomous_poster.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024autonomous_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024loyal.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024loyal_poster.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2024loyal_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025asa.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025asa_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025asasimaas.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025asasimaas_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025autonomous.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025deep.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025poker.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/dantas2025simulation.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/gobi2023ambiente.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/lima2024aprendizado.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/lima2024aprendizado_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/lima2025algoritmo.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/lima2025algoritmo_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/lima2025droneswarm2d.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/lima2025droneswarm2d_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/murca2025open.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/navarro2024sorts.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/patrikar2022challenges.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/patrikar2022challenges_slides.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/patrikar2025image.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/silva2025asafg.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/viscardi2024advanced.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-  <url><loc>https://www.joaopadantas.com/files/viscardi2024manobra.pdf</loc><changefreq>yearly</changefreq><priority>0.60</priority></url>
-
-  <!-- Certificates (certificates/) -->
-  <url><loc>https://www.joaopadantas.com/certificates/2003_Christus_Internal_Math_Olympiad.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2003_EXCETEC_2nd_Place.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2006_Farias_Brito_Internal_Olympiads.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2006_UFC_Science_Biology_Olympiad.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2007_OBA_Bronze_Medal.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2010_ITA_Entrance_Exam.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2011_CPORAER_SJ_1st_Place.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2012_PIBIC_Fellowship_Estudo.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2013_PIBIC_Fellowship_Aquisicao.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2014_Military_Merit_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2014_Stony_Brook_Scholarship.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2015_ITA_Humanities_Honorable_Mention.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2016_Prolider_Fellow.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2019_IYMC_Ambassador.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2021_Military_Bronze_Medal.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2023_CMU_AIPilot_Software_Registry.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2023_PADS_Best_PhD_Colloquium.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2023_PADS_Travel_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2024_ASA_Software_Registry.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2024_LACORO_Best_Poster.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2024_UNODA_SIPRI_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2024_WSC_Diversity_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2025_DAC_Young_Fellow.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2025_MD_PhD_Award.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-  <url><loc>https://www.joaopadantas.com/certificates/2025_WSC_Simulation_Challenge.pdf</loc><changefreq>yearly</changefreq><priority>0.50</priority></url>
-
 </urlset>
