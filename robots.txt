@@ -3,7 +3,6 @@ Allow: /
 Disallow: /.git/
 Disallow: /.venv/
 Disallow: /*.py$
-Disallow: /files/
 Disallow: /certificates/
 
 # Block aggressive bots
