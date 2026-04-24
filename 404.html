@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <title>Page Not Found | Joao P. A. Dantas</title>
-    <link href="img/icons/ieav.ico" rel="icon" />
+    <link href="img/icons/ita.ico" rel="icon" />
     <link href="css/style.css" rel="stylesheet" />
     <script>
         // Redirect map: old URLs → new URLs
@@ -18,11 +18,24 @@
             '/files/figueiredo2025analise.pdf': '/files/araujo2025analise.pdf',
             '/files/wsc_diversity_award_2024.pdf': '/certificates/2024_WSC_Diversity_Award.pdf',
             '/files/iymc.pdf': '/certificates/2019_IYMC_Ambassador.pdf',
+            '/files/asa-registro.pdf': '/certificates/2024_ASA_Software_Registry.pdf',
         };
 
         (function () {
             const path = window.location.pathname;
             if (redirects[path]) {
+                // Set meta refresh as fallback for bots that don't execute JS
+                var meta = document.createElement('meta');
+                meta.httpEquiv = 'refresh';
+                meta.content = '0; url=' + redirects[path];
+                document.head.appendChild(meta);
+
+                // Also set canonical link for SEO
+                var link = document.createElement('link');
+                link.rel = 'canonical';
+                link.href = 'https://www.joaopadantas.com' + redirects[path];
+                document.head.appendChild(link);
+
                 window.location.replace(redirects[path]);
             }
         })();
