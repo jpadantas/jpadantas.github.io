@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 /* Modern CSS for jpadantas.github.io - Inspired by bradymoon.com */
 
@@ -139,10 +139,8 @@ a:hover {
 }
 
 .profile-image-large {
-    width: 260px;
-    /* Increased from 220px */
-    height: 260px;
-    /* Increased from 220px */
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
