@@ -908,6 +908,11 @@ img[src*="ita.png"] {
     color: #005072;
 }
 
+.footer-icons a:hover .ai-scopus {
+    color: #E9711C;
+}
+
+
 
 .footer-icons a:hover {
     color: var(--primary-color);

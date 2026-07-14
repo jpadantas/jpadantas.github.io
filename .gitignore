@@ -13,3 +13,6 @@ __pycache__/
 # Temporary scripts
 *.py
 _extra/
+
+# IDE settings
+.vscode/
