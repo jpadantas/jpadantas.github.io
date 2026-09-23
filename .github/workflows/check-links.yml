@@ -1,0 +1,28 @@
+name: Check External Links
+
+on:
+  workflow_dispatch: # Allows manual trigger anytime in GitHub Actions tab
+  schedule:
+    # Runs on the 1st of every month at 08:00 UTC
+    - cron: '0 8 1 * *'
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Lychee Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Accept 403/429 (anti-bot protection from Cloudflare/Google/LinkedIn) as alive,
+          # only flag genuine broken links like 404, 500, or invalid hosts
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200..=204,403,429
+            --timeout 15
+            --max-retries 2
+            './*.html'
+          fail: false
