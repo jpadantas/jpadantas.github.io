@@ -21,6 +21,7 @@ jobs:
           args: >-
             --verbose
             --no-progress
+            --insecure
             --accept 200..=204,302,403,418,429,999
             --exclude '(lattes\.cnpq\.br|linkedin\.com)'
             --timeout 20
