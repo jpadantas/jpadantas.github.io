@@ -16,13 +16,14 @@ jobs:
       - name: Run Lychee Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          # Accept 403/429 (anti-bot protection from Cloudflare/Google/LinkedIn) as alive,
-          # only flag genuine broken links like 404, 500, or invalid hosts
+          # Accept redirects, bot challenge codes (418 IEEE, 999 LinkedIn, 403 Cloudflare, 302 Scopus)
+          # Exclude Lattes (due to legacy SSL cipher handshake incompatibility with Ubuntu runner)
           args: >-
             --verbose
             --no-progress
-            --accept 200..=204,403,429
-            --timeout 15
-            --max-retries 2
+            --accept 200..=204,302,403,418,429,999
+            --exclude '(lattes\.cnpq\.br|linkedin\.com)'
+            --timeout 20
+            --max-retries 3
             './*.html'
           fail: false
