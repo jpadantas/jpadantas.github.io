@@ -31,8 +31,8 @@ accept = [200, 201, 202, 203, 204, 301, 302, 307, 308, 403, 418, 429, 999]
 # - latamt.ieeer9.org: Known HTTP/2 protocol negotiation bug in regional IEEE OJS/nginx server
 # - ri.cmu.edu: Campus firewall drops/resets automated runner connections
 exclude = [
-    'https?://(.*\\.)?lattes\\.cnpq\\.br(/.*)?$',
-    'https?://(.*\\.)?linkedin\\.com(/.*)?$',
-    'https?://(.*\\.)?latamt\\.ieeer9\\.org(/.*)?$',
-    'https?://(.*\\.)?ri\\.cmu\\.edu(/.*)?$',
+    "lattes.cnpq.br",
+    "linkedin.com",
+    "latamt.ieeer9.org",
+    "ri.cmu.edu",
 ]

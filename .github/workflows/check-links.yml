@@ -16,10 +16,11 @@ jobs:
       - name: Run Lychee Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          # Settings and exclusions are configured in lychee.toml
+          # Settings are in lychee.toml, with explicit CLI excludes for runner compatibility
           args: >-
             --config lychee.toml
             --verbose
             --no-progress
+            --exclude '(lattes\.cnpq\.br|linkedin\.com|latamt\.ieeer9\.org|ri\.cmu\.edu)'
             './*.html'
           fail: false

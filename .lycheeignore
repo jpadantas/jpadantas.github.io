@@ -1,0 +1,9 @@
+# Excluded domains for lychee link checker
+# - Lattes: Outdated Brazilian government TLS ciphers cause HandshakeFailure on modern Ubuntu runners
+lattes.cnpq.br
+# - LinkedIn: Anti-scraping firewall
+linkedin.com
+# - IEEE Region 9: HTTP/2 protocol negotiation bug in regional server
+latamt.ieeer9.org
+# - Carnegie Mellon Robotics Institute: Campus firewall resets connections on automated scanners
+ri.cmu.edu
