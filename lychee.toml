@@ -1,0 +1,38 @@
+# lychee.toml
+# Link checker configuration for João Pedro Dantas's academic website
+
+# Realistic modern browser User-Agent
+# Academic and institutional servers (e.g. CMU Robotics Institute, IEEE, Springer)
+# reject automated requests and reset connections when generic bot user agents are detected.
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+# Maximum concurrent network requests
+# Low concurrency prevents triggering university/campus firewall rate-limits and TCP connection resets
+max_concurrency = 8
+
+# Maximum number of retries per link
+max_retries = 3
+
+# Timeout in seconds
+timeout = 30
+
+# Ignore SSL certificate verification issues for legacy institutional servers
+insecure = true
+
+# Accept status codes:
+# - Standard successes (200-204)
+# - Standard redirects (301, 302, 307, 308)
+# - Bot verification / Cloudflare challenges (403, 418, 429, 999)
+accept = [200, 201, 202, 203, 204, 301, 302, 307, 308, 403, 418, 429, 999]
+
+# Excluded URL patterns (regex)
+# - lattes.cnpq.br: Legacy Brazilian government server with outdated TLS ciphers incompatible with Ubuntu runner
+# - linkedin.com: Anti-scraping firewall
+# - latamt.ieeer9.org: Known HTTP/2 protocol negotiation bug in regional IEEE OJS/nginx server
+# - ri.cmu.edu: Campus firewall drops/resets automated runner connections
+exclude = [
+    'https?://(.*\\.)?lattes\\.cnpq\\.br(/.*)?$',
+    'https?://(.*\\.)?linkedin\\.com(/.*)?$',
+    'https?://(.*\\.)?latamt\\.ieeer9\\.org(/.*)?$',
+    'https?://(.*\\.)?ri\\.cmu\\.edu(/.*)?$',
+]

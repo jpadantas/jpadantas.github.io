@@ -16,15 +16,10 @@ jobs:
       - name: Run Lychee Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
-          # Accept redirects, bot challenge codes (418 IEEE, 999 LinkedIn, 403 Cloudflare, 302 Scopus)
-          # Exclude Lattes (due to legacy SSL cipher handshake incompatibility with Ubuntu runner)
+          # Settings and exclusions are configured in lychee.toml
           args: >-
+            --config lychee.toml
             --verbose
             --no-progress
-            --insecure
-            --accept 200..=204,302,403,418,429,999
-            --exclude '(lattes\.cnpq\.br|linkedin\.com|latamt\.ieeer9\.org)'
-            --timeout 20
-            --max-retries 3
             './*.html'
           fail: false
