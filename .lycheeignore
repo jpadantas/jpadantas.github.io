@@ -7,3 +7,9 @@ linkedin.com
 latamt.ieeer9.org
 # - Carnegie Mellon Robotics Institute: Campus firewall resets connections on automated scanners
 ri.cmu.edu
+# - ITA and DCTA: Brazilian institutional/military networks timeout or geoblock foreign CI runners
+ita.br
+asa.dcta.mil.br
+dcta.mil.br
+# - Scopus: Anti-bot redirects in loops to Elsevier OAuth
+scopus.com

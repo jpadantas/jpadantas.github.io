@@ -30,9 +30,15 @@ accept = [200, 201, 202, 203, 204, 301, 302, 307, 308, 403, 418, 429, 999]
 # - linkedin.com: Anti-scraping firewall
 # - latamt.ieeer9.org: Known HTTP/2 protocol negotiation bug in regional IEEE OJS/nginx server
 # - ri.cmu.edu: Campus firewall drops/resets automated runner connections
+# - ita.br & dcta.mil.br: Brazilian institutional/military networks timeout on cloud CI runners
+# - scopus.com: Bot-protection OAuth redirect loops
 exclude = [
     "lattes.cnpq.br",
     "linkedin.com",
     "latamt.ieeer9.org",
     "ri.cmu.edu",
+    "ita.br",
+    "asa.dcta.mil.br",
+    "dcta.mil.br",
+    "scopus.com",
 ]
