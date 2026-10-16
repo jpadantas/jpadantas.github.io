@@ -18,10 +18,6 @@
             {
               "type": "github",
               "url": "https://github.com/jpadantas/poker"
-            },
-            {
-              "type": "arxiv",
-              "url": "https://arxiv.org/abs/2309.08680"
             }
           ]
         },
@@ -294,6 +290,10 @@
           "thumbnail_alt": "Preview of paper: Offline Multimodal Large Language Models for Decision Support in Air Operations",
           "links": [
             {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2609.21390"
+            },
+            {
               "type": "slides",
               "url": "files/dantas2026offline_slides.pdf"
             }
@@ -461,6 +461,10 @@
               "url": "files/dantas2024loyal_slides.pdf"
             },
             {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2405.00073"
+            },
+            {
               "type": "poster",
               "url": "files/dantas2024loyal_poster.pdf"
             },
@@ -535,6 +539,10 @@
               "url": "files/dantas2023autonomous_slides.pdf"
             },
             {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2304.09669"
+            },
+            {
               "type": "poster",
               "url": "files/dantas2023autonomous_poster.pdf"
             },
@@ -557,6 +565,10 @@
             {
               "type": "publisher",
               "url": "https://ieeexplore.ieee.org/abstract/document/10015384"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2207.04188"
             },
             {
               "type": "github",
@@ -599,6 +611,10 @@
               "url": "https://link.springer.com/chapter/10.1007/978-3-030-91699-2_14"
             },
             {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2111.04474"
+            },
+            {
               "type": "video",
               "url": "https://youtu.be/KHVGzWCeCUo"
             },
@@ -623,6 +639,10 @@
               "url": "https://ieeexplore.ieee.org/abstract/document/9605380"
             },
             {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2111.03059"
+            },
+            {
               "type": "video",
               "url": "https://youtu.be/s5DffseOtYY"
             },
@@ -645,6 +665,10 @@
             {
               "type": "publisher",
               "url": "https://sol.sbc.org.br/index.php/eniac/article/view/18428"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2201.07208"
             },
             {
               "type": "github",
