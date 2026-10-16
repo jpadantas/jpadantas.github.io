@@ -1,0 +1,741 @@
+{
+  "_comment": "Site-only data for each publication. Citation data comes from bib/<id>.bib and the abstract from abstract/<id>.txt. After editing, run: python scripts/build.py",
+  "sections": [
+    {
+      "title": "Journals",
+      "kind": "journal",
+      "items": [
+        {
+          "id": "dantas2026poker",
+          "venue": "The Journal of Defense Modeling and Simulation, 2026",
+          "thumbnail": "img/dantas2026poker.jpg",
+          "thumbnail_alt": "Preview of paper: PoKER: a probability of kill estimation rate model for air-to-air missiles",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://journals.sagepub.com/doi/10.1177/15485129241309675"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/poker"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2309.08680"
+            }
+          ]
+        },
+        {
+          "id": "silva2025asafg",
+          "venue": "IEEE Access, 2025",
+          "thumbnail": "img/silva2025asafg.png",
+          "thumbnail_alt": "Preview of paper: AsaFG: A Human-in-the-Loop Integration Module for Air Combat Simulations",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.1109/ACCESS.2025.3605878"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/ASA-Simulation/AsaFG"
+            }
+          ]
+        },
+        {
+          "id": "dantas2025deep",
+          "venue": "IEEE Access, 2025",
+          "thumbnail": "img/dantas2025deep.png",
+          "thumbnail_alt": "Preview of paper: Deep Reinforcement Learning Agents With Collective Situational Awareness for Beyond Visual Range Air Combat",
+          "equal_contribution": [
+            1,
+            2,
+            3
+          ],
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://ieeexplore.ieee.org/abstract/document/11121842"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/ASA-Simulation/asa-gym"
+            }
+          ]
+        },
+        {
+          "id": "dantas2025autonomous",
+          "venue": "IEEE Access, 2025",
+          "thumbnail": "img/dantas2025autonomous.png",
+          "thumbnail_alt": "Preview of paper: Autonomous Aircraft Tactical Pop-Up Attack Using Imitation and Generative Learning",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://ieeexplore.ieee.org/document/10988533"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/pop-up_attack_generative"
+            }
+          ]
+        },
+        {
+          "id": "costa2025simulation",
+          "venue": "IEEE Access, 2025",
+          "thumbnail": "img/costa2025simulation.png",
+          "thumbnail_alt": "Preview of paper: Simulation and Machine Learning in Beyond Visual Range Air Combat: A Survey",
+          "equal_contribution": [
+            1,
+            2
+          ],
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://ieeexplore.ieee.org/abstract/document/10975034"
+            }
+          ]
+        },
+        {
+          "id": "dantas2025asasimaas",
+          "venue": "Spectrum: The Journal of Operational Applications in Defense Areas, 2025",
+          "thumbnail": "img/dantas2025asasimaas.png",
+          "thumbnail_alt": "Preview of paper: ASA-SimaaS: Advancing Digital Transformation through Simulation Services in the Brazilian Air Force",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2025asasimaas_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.55972/spectrum.v26i1.419"
+            },
+            {
+              "type": "video",
+              "url": "https://www.youtube.com/watch?v=Pv4BvCNwkas"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2309.08680"
+            }
+          ]
+        },
+        {
+          "id": "murca2025open",
+          "venue": "Journal of Open Aviation Science, 2025",
+          "thumbnail": "img/murca2025open.png",
+          "thumbnail_alt": "Preview of paper: Open Machine Learning Models for Actual Takeoff Weight Prediction",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://journals.open.tudelft.nl/joas/article/view/7963"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/PRC-Data-Challenge-2024/team_tiny_rainbow"
+            }
+          ]
+        },
+        {
+          "id": "patrikar2025image",
+          "venue": "Nature Scientific Data, 2025",
+          "thumbnail": "img/patrikar2025image.png",
+          "thumbnail_alt": "Preview of paper: Image, speech, and ADS-B trajectory datasets for terminal airspace operations (TartanAviation)",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://www.nature.com/articles/s41597-025-04775-6"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/castacks/TartanAviation"
+            }
+          ]
+        },
+        {
+          "id": "navarro2024sorts",
+          "venue": "IEEE Robotics and Automation Letters, 2024",
+          "thumbnail": "img/navarro2024sorts.png",
+          "thumbnail_alt": "Preview of paper: SoRTS: Learned Tree Search for Long Horizon Social Robot Navigation",
+          "equal_contribution": [
+            1,
+            2
+          ],
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.1109/LRA.2024.3370051"
+            },
+            {
+              "type": "video",
+              "url": "https://www.youtube.com/watch?v=PBE3O4cW2rI"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/cmubig/sorts"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2309.13144"
+            }
+          ]
+        },
+        {
+          "id": "viscardi2024advanced",
+          "venue": "Spectrum: The Journal of Operational Applications in Defense Areas, 2024",
+          "thumbnail": "img/viscardi2024advanced.png",
+          "thumbnail_alt": "Preview of paper: Advanced Defensive Tactics: Integrating Simulation and Machine Learning in Aerial Warfare",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.55972/spectrum.v25i1.403"
+            },
+            {
+              "type": "video",
+              "url": "https://www.youtube.com/watch?v=CSMWbbBJ9TM"
+            }
+          ]
+        },
+        {
+          "id": "dantas2022machine",
+          "venue": "IEEE Latin America Transactions, 2022",
+          "thumbnail": "img/dantas2022machine.png",
+          "thumbnail_alt": "Preview of paper: Machine Learning for Beyond Visual Range Air Combat",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.1109/TLA.2022.9853232"
+            },
+            {
+              "type": "video",
+              "url": "https://youtu.be/x-o_ztLEy14"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/machine-learning-bvr-air-combat"
+            }
+          ]
+        },
+        {
+          "id": "costa2022formation",
+          "venue": "Simulation: Transactions of the Society for Modeling and Simulation International, 2022",
+          "thumbnail": "img/costa2022formation.png",
+          "thumbnail_alt": "Preview of paper: Formation control method based on artificial potential fields for aircraft flight simulation",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://journals.sagepub.com/doi/abs/10.1177/00375497211063380"
+            }
+          ]
+        },
+        {
+          "id": "dantas2020modelo",
+          "venue": "Spectrum: The Journal of Operational Applications in Defense Areas, 2020",
+          "thumbnail": "img/dantas2020modelo.png",
+          "thumbnail_alt": "Preview of paper: Modelo de simulação aplicado às missões de transporte na região amazônica",
+          "language": "pt",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://spectrum.ita.br/index.php/spectrum/article/view/70"
+            }
+          ]
+        },
+        {
+          "id": "dantas2018analise",
+          "venue": "Revista Conexão SIPAER, 2018",
+          "thumbnail": "img/dantas2018analise.png",
+          "thumbnail_alt": "Preview of paper: Análise Exploratória de Dados de Acidentes Aeronáuticos no Brasil",
+          "language": "pt",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://conexaosipaer.com.br/index.php/sipaer/article/view/510"
+            }
+          ]
+        },
+        {
+          "id": "dantas2017teoria",
+          "venue": "Spectrum: The Journal of Operational Applications in Defense Areas, 2017",
+          "thumbnail": "img/dantas2017teoria.png",
+          "thumbnail_alt": "Preview of paper: Teoria dos jogos aplicada ao combate BVR",
+          "language": "pt",
+          "links": []
+        }
+      ]
+    },
+    {
+      "title": "Conferences",
+      "kind": "conference",
+      "items": [
+        {
+          "id": "nunes2026haltsim",
+          "venue": "Simpósio de Aplicações Operacionais em Áreas de Defesa (SIGE), 2026",
+          "thumbnail": "img/nunes2026haltsim.png",
+          "thumbnail_alt": "Preview of paper: HaltSim: Uma Ferramenta de Avaliação para Critérios de Parada em Simulações Estocásticas",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/nunes2026haltsim_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://www.sige.ita.br/edicoes-anteriores/2026/TRABALHOS/Artigos/31916%20-%20HaltSim%20Uma%20Ferramenta%20de%20Avalia%C3%A7%C3%A3o%20para%20Crit%C3%A9rios%20de%20Parada%20em%20Simula%C3%A7%C3%B5es%20Estoc%C3%A1sticas.pdf?x58792"
+            },
+            {
+              "type": "researchgate",
+              "url": "https://www.researchgate.net/publication/415015965_HaltSim_Uma_Ferramenta_de_Avaliacao_para_Criterios_de_Parada_em_Simulacoes_Estocasticas"
+            }
+          ]
+        },
+        {
+          "id": "dantas2026offline",
+          "venue": "Congress of the International Council of the Aeronautical Sciences (ICAS), 2026",
+          "thumbnail": "img/dantas2026offline.png",
+          "thumbnail_alt": "Preview of paper: Offline Multimodal Large Language Models for Decision Support in Air Operations",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2026offline_slides.pdf"
+            }
+          ]
+        },
+        {
+          "id": "dantas2026harbor",
+          "venue": "AIAA AVIATION Forum, 2026",
+          "thumbnail": "img/dantas2026harbor.png",
+          "thumbnail_alt": "Preview of paper: HARBOR: Heading Analysis and Reconstruction from Behavioral Observation and Radar",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2026harbor_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.2514/6.2026-4783"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/harbor"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2606.14006"
+            }
+          ]
+        },
+        {
+          "id": "dantas2025offline",
+          "venue": "Conference on Neural Information Processing Systems (NeurIPS), LatinX in AI (LXAI) Workshop, 2025",
+          "thumbnail": "img/dantas2025offline.png",
+          "thumbnail_alt": "Preview of paper: Offline Language-Based Support System for Tactical Decision-Making in Air Combat Operations",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2025offline_slides.pdf"
+            },
+            {
+              "type": "poster",
+              "url": "files/dantas2025offline_poster.pdf"
+            }
+          ]
+        },
+        {
+          "id": "araujo2025analise",
+          "venue": "Simpósio de Aplicações Operacionais em Áreas de Defesa (SIGE), 2025",
+          "thumbnail": "img/araujo2025analise.png",
+          "thumbnail_alt": "Preview of paper: Análise das Formaturas Operacionais no Combate Aéreo Além do Alcance Visual",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/araujo2025analise_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://www.sige.ita.br/edicoes-anteriores/2025/TRABALHOS/Artigos-com-ISSN/An%C3%A1lise%20das%20Formaturas%20Operacionais%20no%20Combate%20A%C3%A9reo%20Al%C3%A9m%20do%20Alcance%20Visual%20Para%20Infiltra%C3%A7%C3%A3o%20em%20Territ%C3%B3rio%20Inimigo.pdf?x99667"
+            }
+          ]
+        },
+        {
+          "id": "lima2025algoritmo",
+          "venue": "Simpósio de Aplicações Operacionais em Áreas de Defesa (SIGE), 2025",
+          "thumbnail": "img/lima2025algoritmo.png",
+          "thumbnail_alt": "Preview of paper: Algoritmo Distribuído para Enxame de Drones Defensivos",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/lima2025algoritmo_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://www.sige.ita.br/edicoes-anteriores/2025/TRABALHOS/Artigos-com-ISSN/Algoritmo%20Distribu%C3%ADdo%20para%20Enxame%20de%20Drones%20Defensivos%20de%20Pequeno%20Porte%20Baseado%20em%20Planejamento.pdf?x99667"
+            }
+          ]
+        },
+        {
+          "id": "lima2025droneswarm2d",
+          "venue": "Congresso Acadêmico sobre Defesa Nacional (CADN), 2025",
+          "thumbnail": "img/lima2025droneswarm2d.png",
+          "thumbnail_alt": "Preview of paper: DroneSwarm2D: Um Simulador de Enxame de Drones Autônomos",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/lima2025droneswarm2d_slides.pdf"
+            }
+          ]
+        },
+        {
+          "id": "dantas2025asa",
+          "venue": "Computational Science and Computational Intelligence (CSCI), 2025",
+          "thumbnail": "img/dantas2025asa.png",
+          "thumbnail_alt": "Preview of paper: ASA: A Simulation Environment for Evaluating Military Operational Scenarios",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2025asa_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.1007/978-3-031-99586-6_17"
+            },
+            {
+              "type": "video",
+              "url": "https://youtu.be/uZ7jZkOMyfA"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2207.12084"
+            }
+          ]
+        },
+        {
+          "id": "dantas2024asapy",
+          "venue": "Conference on Principles of Advanced Discrete Simulation (PADS), 2024",
+          "thumbnail": "img/dantas2024asapy.png",
+          "thumbnail_alt": "Preview of paper: AsaPy: A Python Library for Aerospace Simulation Analysis",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2024asapy_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://dl.acm.org/doi/abs/10.1145/3615979.3656063"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2310.00001"
+            }
+          ]
+        },
+        {
+          "id": "dantas2024autonomous",
+          "venue": "Winter Simulation Conference (WSC), PhD Colloquium, 2024",
+          "thumbnail": "img/dantas2024autonomous.jpg",
+          "thumbnail_alt": "Preview of paper: Autonomous Pop-Up Attack Maneuver Using Imitation Learning",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2024autonomous_slides.pdf"
+            },
+            {
+              "type": "poster",
+              "url": "files/dantas2024autonomous_poster.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://informs-sim.org/wsc24papers/doc103.pdf"
+            }
+          ]
+        },
+        {
+          "id": "dantas2024loyal",
+          "venue": "Conference on Principles of Advanced Discrete Simulation (PADS), PhD Colloquium, 2024",
+          "thumbnail": "img/dantas2024loyal.jpg",
+          "thumbnail_alt": "Preview of paper: Loyal Wingman Assessment: Social Navigation for Human-Autonomous Collaboration",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2024loyal_slides.pdf"
+            },
+            {
+              "type": "poster",
+              "url": "files/dantas2024loyal_poster.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://dl.acm.org/doi/10.1145/3615979.3662149"
+            }
+          ]
+        },
+        {
+          "id": "lima2024aprendizado",
+          "venue": "Congresso Acadêmico sobre Defesa Nacional (CADN), 2024",
+          "thumbnail": "img/lima2024aprendizado.jpg",
+          "thumbnail_alt": "Preview of paper: Aprendizado de Máquina para Otimização de Resultados em Simulações de Defesa Aeroespacial",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/lima2024aprendizado_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.5281/zenodo.13334319"
+            }
+          ]
+        },
+        {
+          "id": "dantas2023real",
+          "venue": "Interservice/Industry Training, Simulation and Education Conference (I/ITSEC), 2023",
+          "thumbnail": "img/dantas2023real.png",
+          "thumbnail_alt": "Preview of paper: Real-Time Surface-to-Air Missile Engagement Zone Prediction",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2023real_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://www.xcdsystem.com/iitsec/proceedings/index.cfm?Year=2023&AbID=121345&CID=1001#View"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/sam-ez"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2311.11905"
+            }
+          ]
+        },
+        {
+          "id": "gobi2023ambiente",
+          "venue": "Congresso Acadêmico sobre Defesa Nacional (CADN), 2023",
+          "thumbnail": "img/gobi2023ambiente.jpg",
+          "thumbnail_alt": "Preview of paper: Ambiente de Simulação Aeroespacial: Capacidades e Potenciais Benefícios",
+          "language": "pt",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.5281/zenodo.10144605"
+            }
+          ]
+        },
+        {
+          "id": "dantas2023autonomous",
+          "venue": "Conference on Principles of Advanced Discrete Simulation (PADS), PhD Colloquium, 2023",
+          "thumbnail": "img/dantas2023autonomous.jpg",
+          "thumbnail_alt": "Preview of paper: Autonomous Agent for Beyond Visual Range Air Combat: A Deep Reinforcement Learning Approach",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2023autonomous_slides.pdf"
+            },
+            {
+              "type": "poster",
+              "url": "files/dantas2023autonomous_poster.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://dl.acm.org/doi/10.1145/3573900.3593631"
+            }
+          ]
+        },
+        {
+          "id": "dantas2022supervised",
+          "venue": "Winter Simulation Conference (WSC), 2022",
+          "thumbnail": "img/dantas2022supervised.png",
+          "thumbnail_alt": "Preview of paper: Supervised Machine Learning for Effective Missile Launch",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2022supervised_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://ieeexplore.ieee.org/abstract/document/10015384"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/effective-missile-launch"
+            }
+          ]
+        },
+        {
+          "id": "patrikar2022challenges",
+          "venue": "International Conference on Robotics and Automation (ICRA), Aerial Robotics Workshop, 2022",
+          "thumbnail": "img/patrikar2022challenges.png",
+          "thumbnail_alt": "Preview of paper: Challenges in Close-Proximity Safe and Seamless Operation of Manned and Unmanned Aircraft",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/patrikar2022challenges_slides.pdf"
+            },
+            {
+              "type": "video",
+              "url": "https://youtu.be/iU_MyMwuE8E"
+            },
+            {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2211.06932"
+            }
+          ]
+        },
+        {
+          "id": "dantas2021weapon",
+          "venue": "Brazilian Conference on Intelligent Systems (BRACIS), 2021",
+          "thumbnail": "img/dantas2021weapon.png",
+          "thumbnail_alt": "Preview of paper: Weapon Engagement Zone Maximum Launch Range Estimation",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2021weapon_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://link.springer.com/chapter/10.1007/978-3-030-91699-2_14"
+            },
+            {
+              "type": "video",
+              "url": "https://youtu.be/KHVGzWCeCUo"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/bracis2021"
+            }
+          ]
+        },
+        {
+          "id": "dantas2021engagement",
+          "venue": "Latin American Robotics Symposium (LARS), 2021",
+          "thumbnail": "img/dantas2021engagement.png",
+          "thumbnail_alt": "Preview of paper: Engagement Decision Support for Beyond Visual Range Air Combat",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2021engagement_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://ieeexplore.ieee.org/abstract/document/9605380"
+            },
+            {
+              "type": "video",
+              "url": "https://youtu.be/s5DffseOtYY"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/lars2021"
+            }
+          ]
+        },
+        {
+          "id": "dantas2021enhanced",
+          "venue": "National Meeting on Artificial and Computational Intelligence (ENIAC), 2021",
+          "thumbnail": "img/dantas2021enhanced.png",
+          "thumbnail_alt": "ENIAC paper",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2021enhanced_slides.pdf"
+            },
+            {
+              "type": "publisher",
+              "url": "https://sol.sbc.org.br/index.php/eniac/article/view/18428"
+            },
+            {
+              "type": "github",
+              "url": "https://github.com/jpadantas/kddbr-2021"
+            }
+          ]
+        },
+        {
+          "id": "dantas2013aquisicao",
+          "venue": "XIX Encontro de Iniciação Científica e Pós-Graduação do ITA (ENCITA), 2013",
+          "thumbnail": "img/dantas2013aquisicao.jpg",
+          "thumbnail_alt": "ENCITA 2013",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2013aquisicao_slides.pdf"
+            }
+          ]
+        },
+        {
+          "id": "dantas2012estudo",
+          "venue": "XVIII Encontro de Iniciação Científica e Pós-Graduação do ITA (ENCITA), 2012",
+          "thumbnail": "img/dantas2012estudo.png",
+          "thumbnail_alt": "ENCITA 2012",
+          "language": "pt",
+          "links": [
+            {
+              "type": "slides",
+              "url": "files/dantas2012estudo_slides.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Theses",
+      "kind": "thesis",
+      "items": [
+        {
+          "id": "dantas2025simulation",
+          "venue": "PhD Thesis, Instituto Tecnológico de Aeronáutica, 2025",
+          "thumbnail": "img/dantas2025simulation.png",
+          "thumbnail_alt": "PhD thesis",
+          "links": [
+            {
+              "type": "library",
+              "url": "http://www.bdita.bibl.ita.br/tesesdigitais/80511.pdf"
+            }
+          ]
+        },
+        {
+          "id": "dantas2018apoio",
+          "venue": "Master's Thesis, Instituto Tecnológico de Aeronáutica, 2018",
+          "thumbnail": "img/dantas2018apoio.png",
+          "thumbnail_alt": "Master's thesis",
+          "language": "pt",
+          "links": [
+            {
+              "type": "library",
+              "url": "http://www.bdita.bibl.ita.br/tesesdigitais/75485.pdf"
+            }
+          ]
+        },
+        {
+          "id": "dantas2015hexacoptero",
+          "venue": "Senior Thesis, Instituto Tecnológico de Aeronáutica, 2015",
+          "thumbnail": "img/dantas2015hexacoptero.png",
+          "thumbnail_alt": "Hexacopter thesis",
+          "language": "pt",
+          "links": [
+            {
+              "type": "library",
+              "url": "http://www.bdita.bibl.ita.br/TGsDigitais/69611.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pre-Prints",
+      "kind": "preprint",
+      "items": [
+        {
+          "id": "costa2023analysis",
+          "venue": "SSRN eLibrary, 2023",
+          "thumbnail": "img/costa2023analysis.png",
+          "thumbnail_alt": "Pre-print paper",
+          "links": []
+        }
+      ]
+    }
+  ]
+}
