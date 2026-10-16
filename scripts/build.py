@@ -10,6 +10,7 @@ Outputs:
     sitemap.xml
 """
 import datetime
+import hashlib
 import html
 import json
 import os
@@ -245,6 +246,12 @@ def site_chrome(publications_html):
     return fix(header), fix(footer)
 
 
+def css_version():
+    """Short hash of css/style.css, so browsers fetch the stylesheet again when it changes."""
+    with open(os.path.join(ROOT, 'css', 'style.css'), 'rb') as f:
+        return hashlib.sha1(f.read().replace(b'\r\n', b'\n')).hexdigest()[:8]
+
+
 def render_page(p, template, header, footer):
     lang = p.get('language', 'en')
     lang_attr = f' lang="{lang}"' if lang != 'en' else ''
@@ -252,6 +259,7 @@ def render_page(p, template, header, footer):
     description = summary(p['abstract'])
     return template.substitute(
         id=p['id'],
+        css_version=css_version(),
         title=esc(p['f']['title']),
         description=esc(description),
         url=page_url(p),
