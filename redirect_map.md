@@ -11,6 +11,8 @@ The following table maps the 404 URLs reported by Google Search Console to their
 | `files/wsc_diversity_award_2024.pdf` | `certificates/2024_WSC_Diversity_Award.pdf` | Moved to certificates |
 | `files/iymc.pdf` | `certificates/2019_IYMC_Ambassador.pdf` | Moved and renamed |
 | `files/asa-registro.pdf` | `certificates/2024_ASA_Software_Registry.pdf` | Moved and renamed |
+| `files/dantas2025poker.pdf` | `files/dantas2026poker.pdf` | Id follows issue year (2026) |
+| `files/costa2021formation.pdf` | `files/costa2022formation.pdf` | Id follows issue year (2022) |
 
 ## Recommendations for the User
 
