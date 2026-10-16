@@ -4,6 +4,7 @@ Disallow: /.git/
 Disallow: /.venv/
 Disallow: /*.py$
 Disallow: /certificates/
+Disallow: /scripts/
 
 # Block aggressive bots
 User-agent: AhrefsBot
