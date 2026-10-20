@@ -119,7 +119,7 @@
 
     <main class="main-content reveal">
         <div class="profile-header reveal delay-1">
-            <img width="440" height="440" loading="eager" src="img/opt/joaopadantas-440.webp"
+            <img width="440" height="440" fetchpriority="high" loading="eager" src="img/opt/joaopadantas-440.webp"
                 alt="Joao P. A. Dantas - Research Engineer specializing in AI and Robotics"
                 class="profile-image-large" />
             <h1 class="profile-name">
@@ -200,7 +200,16 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        // Content already on screen when the page opens is shown at once, so the first paint
+        // is not delayed; the fade-in is kept for content that scrolls into view.
+        document.querySelectorAll('.reveal').forEach(el => {
+            if (el.getBoundingClientRect().top < window.innerHeight) {
+                el.style.transition = 'none';
+                el.classList.add('active');
+            } else {
+                observer.observe(el);
+            }
+        });
     </script>
 </body>
 

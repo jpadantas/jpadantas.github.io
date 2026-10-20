@@ -748,7 +748,16 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        // Content already on screen when the page opens is shown at once, so the first paint
+        // is not delayed; the fade-in is kept for content that scrolls into view.
+        document.querySelectorAll('.reveal').forEach(el => {
+            if (el.getBoundingClientRect().top < window.innerHeight) {
+                el.style.transition = 'none';
+                el.classList.add('active');
+            } else {
+                observer.observe(el);
+            }
+        });
     </script>
 </body>
 
