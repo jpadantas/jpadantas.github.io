@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
 /* Modern CSS for jpadantas.github.io - Inspired by bradymoon.com */
+/* The Inter font is loaded with a <link> in each page's <head> (faster than @import). */
 
 /* === Reset & Base Styles === */
 * {
@@ -1368,6 +1367,7 @@ button.cite-tag {
     margin: 0 auto;
     width: 440px;
     max-width: 100%;
+    height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border: 1px solid var(--border-color);

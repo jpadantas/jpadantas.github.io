@@ -8,6 +8,8 @@ Outputs:
     publications/index.html        redirect to /publications.html
     publications.html              only the regions between the "BEGIN generated" markers
     sitemap.xml
+    img/opt/*.webp                 resized copies of the images; the <img> tags of
+                                   PAGE_IMAGE_WIDTHS pages are pointed to them (needs Pillow)
 """
 import datetime
 import hashlib
@@ -21,6 +23,7 @@ from string import Template
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bibtex  # noqa: E402
+import images  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://www.joaopadantas.com'
@@ -39,6 +42,10 @@ LINKS = {
     'researchgate': ('ResearchGate', 'ai ai-researchgate', True, 'ResearchGate'),
     'library': ('ITA Library', 'fa-solid fa-book', True, 'ITA Library'),
 }
+# Hand-written pages whose images are swapped for resized WebP copies (value: widest display size x2).
+PAGE_IMAGE_WIDTHS = {'index.html': 440, 'software.html': 320, 'research.html': 960, 'media.html': 640}
+LIST_THUMB_WIDTH = 320  # shown at 160 px in publications.html
+PAGE_THUMB_WIDTH = 880  # shown at 440 px on each publication page
 MAIN_PAGES = [('', '1.00'), ('publications.html', '0.90'), ('software.html', '0.80'),
               ('research.html', '0.80'), ('awards.html', '0.70'), ('media.html', '0.70')]
 
@@ -253,6 +260,7 @@ def css_version():
 
 
 def render_page(p, template, header, footer):
+    thumb, thumb_w, thumb_h = images.optimized(p['thumbnail'], PAGE_THUMB_WIDTH)
     lang = p.get('language', 'en')
     lang_attr = f' lang="{lang}"' if lang != 'en' else ''
     year, _ = date_parts(p)
@@ -276,7 +284,9 @@ def render_page(p, template, header, footer):
         equal_note='\n        <div class="pub-note">* Equal contribution</div>' if p.get('equal_contribution') else '',
         reference=esc(full_reference(p)),
         buttons=page_buttons(p),
-        thumbnail=esc(absolute(p['thumbnail'])),
+        thumbnail=esc(absolute(thumb)),
+        thumb_width=thumb_w,
+        thumb_height=thumb_h,
         thumbnail_alt=esc(p['thumbnail_alt']),
         abstract=esc(p['abstract']),
         bibtex=highlight_bibtex(p['bib']),
@@ -287,6 +297,7 @@ def render_page(p, template, header, footer):
 
 def render_list_item(p):
     pid = p['id']
+    thumb, thumb_w, thumb_h = images.optimized(p['thumbnail'], LIST_THUMB_WIDTH)
     reveal = ' reveal' if p['first_in_section'] else ''
     links = [{'type': 'pdf', 'url': f'files/{pid}.pdf'}] + p['links']
     link_html = []
@@ -300,7 +311,7 @@ def render_list_item(p):
     lang = f' lang="{p["language"]}"' if p.get('language') else ''
     return f'''      <div class="publication-item-with-thumb{reveal}" id="{pid}">
         <div class="pub-thumb">
-          <img alt="{esc(p['thumbnail_alt'])}" loading="lazy" src="{esc(p['thumbnail'])}" />
+          <img width="{thumb_w}" height="{thumb_h}" alt="{esc(p['thumbnail_alt'])}" loading="lazy" src="{esc(thumb)}" />
         </div>
         <div class="pub-content">
           <div class="pub-title"{lang}>
@@ -399,8 +410,17 @@ def main():
     pub_html = replace_region(pub_html, 'itemlist', render_item_list(pubs))
     write('publications.html', pub_html)
 
+    for page, width in PAGE_IMAGE_WIDTHS.items():
+        path = os.path.join(ROOT, page)
+        with open(path, encoding='utf-8', newline='') as f:  # keep the page's own line endings
+            original = f.read()
+        updated = images.rewrite_img_tags(original, width)
+        if updated != original:
+            with open(path, 'w', encoding='utf-8', newline='') as f:
+                f.write(updated)
+
     write('sitemap.xml', render_sitemap(pubs))
-    print(f'Built {len(pubs)} publication pages, publications.html and sitemap.xml')
+    print(f'Built {len(pubs)} publication pages, publications.html, sitemap.xml and optimized page images')
 
 
 if __name__ == '__main__':
