@@ -1368,8 +1368,6 @@ button.cite-tag {
     width: 440px;
     max-width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
     border: 1px solid var(--border-color);
 }
 
