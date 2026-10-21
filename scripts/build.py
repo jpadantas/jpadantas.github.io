@@ -107,6 +107,10 @@ def load():
             problems.append(f'{name[:-4]}: bib/{name} is not listed in publications.json')
     if problems:
         sys.exit('Build stopped:\n  ' + '\n  '.join(problems))
+    for p in pubs:  # all thumbnails are shown at the same square size
+        w, h = images.size_of(p['thumbnail'])
+        if abs(w - h) > max(w, h) * 0.02:
+            print(f"Warning: {p['thumbnail']} is {w}x{h}, not square; pad it with white to {max(w, h)}x{max(w, h)}")
     return data, pubs
 
 
