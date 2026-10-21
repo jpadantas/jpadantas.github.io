@@ -10,7 +10,8 @@ from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OPT_DIR = 'img/opt'
 QUALITY = 82
-SKIP_BYTES = 60_000  # small images (e.g. logos) are left as they are
+SKIP_BYTES = 60_000  # small images are left as they are...
+CLASS_WIDTHS = {'institution-logo': 240}  # ...unless their class has its own width (logos shown 45 px tall)
 
 _IMG_TAG = re.compile(r'<img\b[^>]*>', re.S)
 
@@ -49,8 +50,9 @@ def rewrite_img_tags(html, width):
         path = src.lstrip('/')
         if not path.startswith('img/') or not os.path.exists(os.path.join(ROOT, path)):
             return tag
-        if not path.startswith(OPT_DIR + '/') and os.path.getsize(os.path.join(ROOT, path)) > SKIP_BYTES:
-            path, w, h = optimized(path, width)
+        class_width = next((cw for cls, cw in CLASS_WIDTHS.items() if re.search(rf'\bclass="[^"]*\b{cls}\b', tag)), None)
+        if not path.startswith(OPT_DIR + '/') and (class_width or os.path.getsize(os.path.join(ROOT, path)) > SKIP_BYTES):
+            path, w, h = optimized(path, class_width or width)
         else:
             w, h = size_of(path)
         tag = tag.replace(src_match.group(0), f'src="{prefix}{path}"')

@@ -313,8 +313,9 @@ def render_list_item(p):
         tooltip, icon, external, _ = LINKS[link['type']]
         target = ' target="_blank"' if external else ''
         link_html.append(f'            <a href="{esc(link["url"])}"{target} title="{tooltip}"><i class="{icon}"></i></a>')
-    link_html.append(f'            <a href="javascript:void(0)" onclick="toggleAbstract(\'{pid}\')" title="Abstract"><i class="fa-solid fa-align-left"></i></a>')
-    link_html.append(f'            <a href="javascript:void(0)" onclick="openBibtex(\'{pid}\')" title="Cite"><i class="fa-solid fa-quote-right"></i></a>')
+    # Real hrefs keep the links crawlable; the onclick handlers keep the in-page behaviour.
+    link_html.append(f'            <a href="#abstract-{pid}" onclick="toggleAbstract(\'{pid}\'); return false;" title="Abstract"><i class="fa-solid fa-align-left"></i></a>')
+    link_html.append(f'            <a href="publications/{pid}/#cite" onclick="openBibtex(\'{pid}\'); return false;" title="Cite"><i class="fa-solid fa-quote-right"></i></a>')
     note = '\n          <div class="pub-note">* Equal contribution</div>' if p.get('equal_contribution') else ''
     lang = f' lang="{p["language"]}"' if p.get('language') else ''
     return f'''      <div class="publication-item-with-thumb{reveal}" id="{pid}">
