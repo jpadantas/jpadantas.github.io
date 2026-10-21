@@ -160,10 +160,8 @@ def full_reference(p):
     return ', '.join(x for x in parts if x)
 
 
-def page_title(title, limit=70, suffix=' | Joao P. A. Dantas'):
+def page_title(title, limit=70):
     """<title> text within `limit` chars (search engines flag longer titles); the full title stays in <h1>."""
-    if len(title + suffix) <= limit:
-        return title + suffix
     if len(title) <= limit:
         return title
     return title[:limit - 1].rsplit(' ', 1)[0].rstrip(' :,;–-') + '…'
