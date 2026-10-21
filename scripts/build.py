@@ -160,6 +160,15 @@ def full_reference(p):
     return ', '.join(x for x in parts if x)
 
 
+def page_title(title, limit=70, suffix=' | Joao P. A. Dantas'):
+    """<title> text within `limit` chars (search engines flag longer titles); the full title stays in <h1>."""
+    if len(title + suffix) <= limit:
+        return title + suffix
+    if len(title) <= limit:
+        return title
+    return title[:limit - 1].rsplit(' ', 1)[0].rstrip(' :,;–-') + '…'
+
+
 def summary(text, limit=160):
     if len(text) <= limit:
         return text
@@ -268,6 +277,7 @@ def render_page(p, template, header, footer):
     return template.substitute(
         id=p['id'],
         css_version=css_version(),
+        page_title=esc(page_title(p['f']['title'])),
         title=esc(p['f']['title']),
         description=esc(description),
         url=page_url(p),
