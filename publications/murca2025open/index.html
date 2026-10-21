@@ -95,16 +95,27 @@
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   </noscript>
   <link href="/css/style.css?v=7e3d5254" rel="stylesheet" />
+  <link rel="preload" href="/fonts/fa-solid-subset.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/fa-brands-subset.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/academicons-subset.woff2" as="font" type="font/woff2" crossorigin />
   <link href="/css/icons.css" media="print" onload="this.media='all'" rel="stylesheet" />
   <noscript>
       <link href="/css/icons.css" rel="stylesheet" />
   </noscript>
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-VEERY7MNTH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-VEERY7MNTH');
+    // Load Google Analytics only after the page has rendered (queued calls above are kept).
+    window.addEventListener('load', function () {
+        setTimeout(function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-VEERY7MNTH';
+            document.head.appendChild(s);
+        }, 0);
+    });
   </script>
 </head>
 
