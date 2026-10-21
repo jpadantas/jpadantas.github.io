@@ -6,6 +6,18 @@
       "kind": "journal",
       "items": [
         {
+          "id": "nunes2026stopping",
+          "venue": "IEEE Access, 2026",
+          "thumbnail": "img/nunes2026stopping.png",
+          "thumbnail_alt": "Preview of paper: Stopping Criteria in Simulation: A Survey of Methods, Applications, Challenges, and Future Directions",
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.1109/ACCESS.2026.3744986"
+            }
+          ]
+        },
+        {
           "id": "dantas2026poker",
           "venue": "The Journal of Defense Modeling and Simulation, 2026",
           "thumbnail": "img/dantas2026poker.jpg",
