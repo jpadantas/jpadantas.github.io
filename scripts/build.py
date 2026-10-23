@@ -150,6 +150,8 @@ def full_reference(p):
     f, parts = p['f'], []
     if p['type'] == 'article':
         vol = f.get('volume', '') + (f"({f['number']})" if f.get('number') else '')
+        if vol and not f.get('pages'):
+            vol = f'vol. {vol}'  # e.g. early-access articles: "IEEE Access, vol. 14, 2026"
         parts = [f['journal'], vol + (f":{f['pages']}" if f.get('pages') and vol else '')]
         if f.get('pages') and not vol:
             parts.append(f"pp. {f['pages']}")
