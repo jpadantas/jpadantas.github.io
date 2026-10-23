@@ -5,6 +5,7 @@ Disallow: /.venv/
 Disallow: /*.py$
 Disallow: /certificates/
 Disallow: /scripts/
+Disallow: /cv/
 
 # Block aggressive bots
 User-agent: AhrefsBot

@@ -3,8 +3,16 @@ env/
 .venv/
 .env/
 
-# CV source files (LaTeX)
-cv/
+# CV: sources are versioned; LaTeX build files are not (the published PDF is files/Joao_Dantas_CV.pdf)
+cv/*.aux
+cv/*.bbl
+cv/*.blg
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.log
+cv/*.out
+cv/*.synctex.gz
+cv/*.pdf
 
 # Python cache
 __pycache__/
