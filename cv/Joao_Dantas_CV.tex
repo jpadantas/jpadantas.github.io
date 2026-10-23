@@ -22,7 +22,7 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.6in,top=0.5in,right=0.6in,bottom=0.5in]{geometry} % Document margins
 \usepackage[fixed]{fontawesome5}
 \usepackage[breaklinks=true,colorlinks,bookmarks=false]{hyperref}
 \hypersetup{
@@ -42,13 +42,17 @@
 \makeatletter
 \newcommand\pubprefix[1]{\renewcommand\@biblabel[1]{[#1##1]}}
 \makeatother
-\newcommand\pubgroup[1]{\par\vspace{0.2em}\noindent{\small\textbf{#1}}\par}
+\newcommand\pubgroup[1]{\par\needspace{7\baselineskip}\vspace{0.2em}\noindent{\small\textbf{#1}}\par}
 
 % Discrete icon-based tags for Certificate/Results/GitHub links
-\newcommand{\certlink}[1]{\,\href{#1}{\footnotesize\faCertificate}}
-\newcommand{\resultlink}[1]{\,\href{#1}{\footnotesize\faChartBar}}
-\newcommand{\ghlink}[1]{\,\href{#1}{\footnotesize\faGithub}}
-\newcommand{\weblink}[1]{\,\href{#1}{\footnotesize\faGlobe}}
+% Allow slightly looser lines instead of text running past the right margin
+\setlength{\emergencystretch}{3em}
+
+% \nolinebreak keeps each icon on the same line as the preceding word (never alone on a new line)
+\newcommand{\certlink}[1]{\nolinebreak\,\href{#1}{\footnotesize\faCertificate}}
+\newcommand{\resultlink}[1]{\nolinebreak\,\href{#1}{\footnotesize\faChartBar}}
+\newcommand{\ghlink}[1]{\nolinebreak\,\href{#1}{\footnotesize\faGithub}}
+\newcommand{\weblink}[1]{\nolinebreak\,\href{#1}{\footnotesize\faGlobe}}
 
 \newcommand*{\boldname}[3]{%
   \def\lastname{#1}%
@@ -154,8 +158,14 @@ Cum. GPA: 8.7 / 10.0
 
 \begin{rSection}{Professional Experience}
 
-\begin{rSubsection}{\href{https://www.fab.mil.br/index.php}{Brazilian Air Force (FAB)}}{Jan 2013 -- Present}{Researcher - Captain Engineer Officer}{São José dos Campos, Brazil}
-    \item Conduct research in \textbf{Modeling \& Simulation} and develop advanced decision support systems using \textbf{Machine Learning} to enhance military operations and aerospace data-driven decision-making.
+\begin{rSubsection}{\href{https://ieav.dcta.mil.br/}{Institute for Advanced Studies (IEAv)}}{Jan 2016 -- Present}{Research Engineer}{São José dos Campos, Brazil}
+    \item Research on military \textbf{Modeling \& Simulation}, \textbf{Machine Learning}, and data science for decision support systems, building simulation environments and analytical tools for complex aerospace scenarios.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://www.fab.mil.br/index.php}{Brazilian Air Force (FAB)}}{Feb 2013 -- Present}{Captain Engineer Officer}{São José dos Campos, Brazil}
+    \item \textbf{Captain} (Dec 2022 -- Present): AI researcher, coordinator of defense offset programs, and firearms instructor.
+    \item \textbf{First Lieutenant} (Dec 2015 -- Dec 2022): data science research on defense scenario analysis and operational modeling.
+    \item \textbf{Officer Candidate} (Feb 2013 -- Dec 2015): ITA research on aerial robotics, plasma physics, and advanced materials.
 \end{rSubsection}
 
 \begin{rSubsection}{\href{https://site.coc.com.br/}{COC Educational System}}{Feb 2017 -- Jul 2021}{Mathematics Teacher and Scientific Olympiads Coordinator}{São José dos Campos, Brazil}
@@ -205,16 +215,16 @@ Toolkits & NumPy $\diamond$ Pandas $\diamond$ Matplotlib $\diamond$ Scikit-Learn
 \footnotesize
 \textbf{Dec 2025:} DroneSwarm2D --- Autonomous drone swarm simulator for distributed defensive tactics. (INPI, 2025).
 \ghlink{https://github.com/lucasll37/DroneSwarm2D-lib}\\
-\textbf{Dec 2025:} AsaGym --- Reinforcement Learning library for aerospace scenarios evaluation. (INPI BR 51 2026 003324-1).
+\textbf{Dec 2025:} AsaGym --- Reinforcement Learning library for aerospace scenarios evaluation. \mbox{(INPI BR 51 2026 003324-1).}
 \certlink{https://www.joaopadantas.com/certificates/2026_AsaGym_Software_Registry.pdf}
 \ghlink{https://github.com/ASA-Simulation/asa-gym}\\
-\textbf{Dec 2025:} AsaFG --- Human-in-the-loop integration module for air combat simulations. (INPI BR 51 2026 003322-5).
+\textbf{Dec 2025:} AsaFG --- Human-in-the-loop integration module for air combat simulations. \mbox{(INPI BR 51 2026 003322-5).}
 \certlink{https://www.joaopadantas.com/certificates/2026_AsaFG_Software_Registry.pdf}
 \ghlink{https://github.com/ASA-Simulation/AsaFG}\\
-\textbf{Oct 2024:} \href{https://www.asa.dcta.mil.br/}{ASA (Ambiente de Simulação Aeroespacial)} --- Simulation framework for modeling military scenarios. (INPI BR 51 2024 002174-4).
+\textbf{Oct 2024:} \href{https://www.asa.dcta.mil.br/}{ASA (Ambiente de Simulação Aeroespacial)} --- Simulation framework for modeling military scenarios. \mbox{(INPI BR 51 2024 002174-4).}
 \certlink{https://www.joaopadantas.com/certificates/2024_ASA_Software_Registry.pdf}
 \weblink{https://www.asa.dcta.mil.br/}\\
-\textbf{Jun 2023:} AI Pilot --- Close-proximity safe and seamless operation of manned and unmanned aircraft in shared airspace. (CMU Tech Transfer 2023-102).
+\textbf{Jun 2023:} AI Pilot --- Close-proximity safe and seamless operation of manned and unmanned aircraft in shared airspace. \mbox{(CMU Tech Transfer 2023-102).}
 \certlink{https://www.joaopadantas.com/certificates/2023_CMU_AIPilot_Software_Registry.pdf}\\
 \textbf{2025:} \href{https://github.com/castacks/TartanAviation.git}{TartanAviation} --- Large-scale terminal airspace operations datasets.
 \ghlink{https://github.com/castacks/TartanAviation.git}
