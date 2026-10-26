@@ -369,6 +369,10 @@
             {
               "type": "publisher",
               "url": "https://www.sige.ita.br/edicoes-anteriores/2025/TRABALHOS/Artigos-com-ISSN/An%C3%A1lise%20das%20Formaturas%20Operacionais%20no%20Combate%20A%C3%A9reo%20Al%C3%A9m%20do%20Alcance%20Visual%20Para%20Infiltra%C3%A7%C3%A3o%20em%20Territ%C3%B3rio%20Inimigo.pdf?x99667"
+            },
+            {
+              "type": "researchgate",
+              "url": "https://www.researchgate.net/publication/395868278_Analise_das_Formaturas_Operacionais_no_Combate_Aereo_Alem_do_Alcance_Visual_para_Infiltracao_em_Territorio_Inimigo"
             }
           ]
         },
@@ -386,6 +390,10 @@
             {
               "type": "publisher",
               "url": "https://www.sige.ita.br/edicoes-anteriores/2025/TRABALHOS/Artigos-com-ISSN/Algoritmo%20Distribu%C3%ADdo%20para%20Enxame%20de%20Drones%20Defensivos%20de%20Pequeno%20Porte%20Baseado%20em%20Planejamento.pdf?x99667"
+            },
+            {
+              "type": "researchgate",
+              "url": "https://www.researchgate.net/publication/395892239_Algoritmo_Distribuido_para_Enxame_de_Drones_Defensivos_de_Pequeno_Porte_Baseado_em_Planejamento"
             }
           ]
         },
@@ -399,6 +407,10 @@
             {
               "type": "slides",
               "url": "files/lima2025droneswarm2d_slides.pdf"
+            },
+            {
+              "type": "researchgate",
+              "url": "https://www.researchgate.net/publication/393019335_DroneSwarm2D_Um_Simulador_de_Enxame_de_Drones_Autonomos_para_o_Estudo_de_Taticas_Defensivas_Distribuidas"
             }
           ]
         },
@@ -504,6 +516,10 @@
             {
               "type": "publisher",
               "url": "https://doi.org/10.5281/zenodo.13334319"
+            },
+            {
+              "type": "researchgate",
+              "url": "https://www.researchgate.net/publication/383697123_Aprendizado_de_Maquina_para_a_Otimizacao_da_Obtencao_de_Resultados_em_Simulacoes_de_Defesa_Aeroespacial"
             }
           ]
         },
@@ -541,6 +557,10 @@
             {
               "type": "publisher",
               "url": "https://doi.org/10.5281/zenodo.10144605"
+            },
+            {
+              "type": "researchgate",
+              "url": "https://www.researchgate.net/publication/379122416_Ambiente_de_Simulacao_Aeroespacial_Capacidades_e_Potenciais_Beneficios_para_a_Industria_de_Defesa_Brasileira"
             }
           ]
         },
