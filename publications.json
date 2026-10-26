@@ -793,7 +793,12 @@
           "venue": "SSRN eLibrary, 2023",
           "thumbnail": "img/costa2023analysis.png",
           "thumbnail_alt": "Pre-print paper",
-          "links": []
+          "links": [
+            {
+              "type": "publisher",
+              "url": "https://doi.org/10.2139/ssrn.4328180"
+            }
+          ]
         }
       ]
     }
