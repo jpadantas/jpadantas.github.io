@@ -346,6 +346,10 @@
           "thumbnail_alt": "Preview of paper: Offline Language-Based Support System for Tactical Decision-Making in Air Combat Operations",
           "links": [
             {
+              "type": "arxiv",
+              "url": "https://arxiv.org/abs/2610.35635"
+            },
+            {
               "type": "slides",
               "url": "files/dantas2025offline_slides.pdf"
             },
