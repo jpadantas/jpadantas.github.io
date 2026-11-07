@@ -23,6 +23,7 @@ from string import Template
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bibtex  # noqa: E402
+import chrome  # noqa: E402
 import images  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -257,15 +258,6 @@ def page_buttons(p):
     return '\n          '.join(out)
 
 
-def site_chrome(publications_html):
-    """Header and footer of publications.html, with links made root-relative."""
-    def fix(block):
-        return re.sub(r'(href|src)="([^"]*)"', lambda m: f'{m.group(1)}="{absolute(m.group(2)) if m.group(2) != "./" else "/"}"', block)
-    header = re.search(r'<header class="site-header">.*?</header>', publications_html, re.S).group(0)
-    footer = re.search(r'<footer class="site-footer">.*?</footer>', publications_html, re.S).group(0)
-    return fix(header), fix(footer)
-
-
 def css_version():
     """Short hash of css/style.css, so browsers fetch the stylesheet again when it changes."""
     with open(os.path.join(ROOT, 'css', 'style.css'), 'rb') as f:
@@ -416,7 +408,8 @@ def main():
     pub_html = read('publications.html')
 
     template = Template(read('scripts/templates/publication.html'))
-    header, footer = site_chrome(pub_html)
+    header = chrome.header('Publications', '/', '  ').lstrip()  # placeholders sit at a 2-space indent
+    footer = chrome.footer('  ').lstrip()
     for p in pubs:
         write(f"publications/{p['id']}/index.html", render_page(p, template, header, footer))
     write('publications/index.html', REDIRECT)
@@ -425,17 +418,20 @@ def main():
     pub_html = replace_region(pub_html, 'itemlist', render_item_list(pubs))
     write('publications.html', pub_html)
 
-    for page, width in PAGE_IMAGE_WIDTHS.items():
+    for page, (active, prefix) in chrome.PAGES.items():  # hand-written pages: shared header/footer, images
         path = os.path.join(ROOT, page)
         with open(path, encoding='utf-8', newline='') as f:  # keep the page's own line endings
             original = f.read()
-        updated = images.rewrite_img_tags(original, width)
+        updated = chrome.apply(original, active, prefix)
+        if page in PAGE_IMAGE_WIDTHS:
+            updated = images.rewrite_img_tags(updated, PAGE_IMAGE_WIDTHS[page])
         if updated != original:
             with open(path, 'w', encoding='utf-8', newline='') as f:
                 f.write(updated)
 
     write('sitemap.xml', render_sitemap(pubs))
-    print(f'Built {len(pubs)} publication pages, publications.html, sitemap.xml and optimized page images')
+    print(f'Built {len(pubs)} publication pages, publications.html, sitemap.xml, shared header/footer '
+          'and optimized page images')
 
 
 if __name__ == '__main__':
