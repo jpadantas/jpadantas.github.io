@@ -6,6 +6,7 @@ Usage (from the repository root; needs pdflatex and bibtex, e.g. MiKTeX):
 Writes cv/publication_groups.tex from publications.json, so the CV lists publications by type
 (Journal Articles, Conference Papers, Theses, Preprints) in the same order as the website,
 numbered [J1], [C1], [T1], [P1]. Entries come from cv/publications.bib.
+Writes cv/awards_sections.tex from awards.json, the same source as the website's awards page.
 """
 import json
 import os
@@ -13,6 +14,9 @@ import re
 import shutil
 import subprocess
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import awards  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CV = os.path.join(ROOT, 'cv')
@@ -50,6 +54,12 @@ def write_groups():
     return [GROUPS[s['kind']][0] for s in sections]
 
 
+def write_awards():
+    """cv/awards_sections.tex from awards.json (the same source as the website's awards page)."""
+    with open(os.path.join(CV, 'awards_sections.tex'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write(awards.sections_latex())
+
+
 def run(*cmd):
     result = subprocess.run(cmd, cwd=CV, capture_output=True, text=True, encoding='utf-8', errors='replace')
     return result.returncode, result.stdout
@@ -57,6 +67,7 @@ def run(*cmd):
 
 def main():
     groups = write_groups()
+    write_awards()
     run('pdflatex', '-interaction=nonstopmode', TEX)
     for name in groups:
         code, out = run('bibtex', name)

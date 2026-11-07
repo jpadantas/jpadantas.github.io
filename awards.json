@@ -1,0 +1,273 @@
+{
+  "_comment": "Honors and fellowships shown on awards.html and in the CV. Text uses **bold** and [link text](url). After editing run: python scripts/build.py and python scripts/build_cv.py Optional \"note\" fields are private and never shown.",
+  "sections": [
+    {
+      "title": "Honors & Recognitions",
+      "items": [
+        {
+          "date": "December 2025",
+          "icon": "fa-trophy",
+          "color": "bronze",
+          "text": "**3rd place** in the **Simulation Challenge** at the [IEEE Winter Simulation Conference 2025](https://meetings.informs.org/wordpress/wsc2025/) ($1,000 cash prize).",
+          "certificate": "certificates/2025_WSC_Simulation_Challenge.pdf",
+          "results": "https://meetings.informs.org/wordpress/wsc2025/simulation-challenge/"
+        },
+        {
+          "date": "November 2025",
+          "icon": "fa-trophy",
+          "color": "gold",
+          "text": "**1st place** in the **[Brazilian Ministry of Defense Doctoral Award](https://www.gov.br/defesa/pt-br)** 2025, recognizing the best Ph.D. thesis in the country in defense science and technology (R$4,000 cash prize).",
+          "certificate": "certificates/2025_MD_PhD_Award.pdf"
+        },
+        {
+          "date": "December 2024",
+          "icon": "fa-award",
+          "text": "**WSC Diversity Award** at the [IEEE Winter Simulation Conference 2024](https://meetings.informs.org/wordpress/wsc2024/) in Orlando, United States.",
+          "certificate": "certificates/2024_WSC_Diversity_Award.pdf",
+          "results": "https://connect.informs.org/simulation/awards/wsc-diversity-award/awardees"
+        },
+        {
+          "date": "December 2024",
+          "icon": "fa-award",
+          "text": "**Runner-up Best Poster Award** at the [LACORO Summer School on Robotics 2024](https://www.lacoro.org/2024/) in Chile.",
+          "certificate": "certificates/2024_LACORO_Best_Poster.pdf",
+          "results": "https://www.lacoro.org/2024/awardees/"
+        },
+        {
+          "date": "November 2024",
+          "icon": "fa-trophy",
+          "color": "silver",
+          "text": "**2nd place** in the **[Performance Review Commission (PRC) Data Challenge 2024](https://prc-data-challenge.netlify.app/)** for developing an open [Machine Learning model to infer flight Actual TakeOff Weight (ATOW)](https://github.com/PRC-Data-Challenge-2024/team_tiny_rainbow).",
+          "results": "https://prc-data-challenge.netlify.app/#and-the-winners-are"
+        },
+        {
+          "date": "June 2024",
+          "icon": "fa-user-graduate",
+          "text": "**ML and Systems Rising Star 2024**, awarded by [MLCommons](https://mlcommons.org/2024/06/2024-mlc-rising-stars/).",
+          "results": "https://mlcommons.org/2024/06/2024-mlc-rising-stars/"
+        },
+        {
+          "date": "October 2023",
+          "icon": "fa-trophy",
+          "color": "bronze",
+          "text": "**3rd place** in the **[Data Science Challenge 2023](https://comp.ita.br/dsc/edicoes/2023/)** for predicting the Estimated Landing Time (ELDT) of flights.",
+          "results": "https://comp.ita.br/dsc/edicoes/2023/",
+          "note": "Private (not shown): Private Kaggle link: https://www.kaggle.com/competitions/ita-icea-data-science-challenge-previso-de-eldt/leaderboard"
+        },
+        {
+          "date": "June 2023",
+          "icon": "fa-award",
+          "text": "**Best PhD Colloquium Award** at the [Conference on Principles of Advanced Discrete Simulation (PADS) 2023](https://sigsim.acm.org/conf/pads/2023/).",
+          "certificate": "certificates/2023_PADS_Best_PhD_Colloquium.pdf"
+        },
+        {
+          "date": "October 2021",
+          "icon": "fa-trophy",
+          "color": "bronze",
+          "text": "**3rd place** in the **[5th Brazilian Competition on Knowledge Discovery in Databases (KDD-BR)](https://www.kaggle.com/c/kddbr-2021)** for predicting solutions of the Travelling Salesman Problem (R$200 cash prize).",
+          "results": "https://www.kaggle.com/competitions/kddbr-2021/leaderboard"
+        },
+        {
+          "date": "October 2021",
+          "icon": "fa-medal",
+          "color": "bronze",
+          "text": "**Military Bronze Medal**, awarded by the [Brazilian Air Force](https://www.fab.mil.br/index.php).",
+          "certificate": "certificates/2021_Military_Bronze_Medal.pdf"
+        },
+        {
+          "date": "December 2019",
+          "icon": "fa-award",
+          "text": "**Ambassador Award of Excellence** 2019, [International Youth Math Challenge (IYMC)](https://iymc.info/en/jodantas).",
+          "certificate": "certificates/2019_IYMC_Ambassador.pdf"
+        },
+        {
+          "date": "October 2019",
+          "icon": "fa-medal",
+          "text": "**6th place** in the **[3rd Brazilian Competition on Knowledge Discovery in Databases (KDD-BR) 2019](https://www.kaggle.com/c/kddbr-2019)** (39 competitors) for predicting flight delays for a Brazilian airline.",
+          "results": "https://www.kaggle.com/competitions/kddbr-2019/leaderboard"
+        },
+        {
+          "date": "May 2019",
+          "icon": "fa-medal",
+          "text": "**4th place** in the **[Data Science Challenge at Engineering Education for the Future (EEF) 2019](https://www.kaggle.com/competitions/data-science-challenge-at-eef-2019/)** for predicting real estate prices in Brazil using regression models.",
+          "results": "https://www.kaggle.com/competitions/data-science-challenge-at-eef-2019/leaderboard"
+        },
+        {
+          "date": "December 2015",
+          "icon": "fa-medal",
+          "text": "**Honorable Mention** in the Department of Humanities, [Aeronautics Institute of Technology](https://www.ita.br/).",
+          "certificate": "certificates/2015_ITA_Humanities_Honorable_Mention.pdf"
+        },
+        {
+          "date": "March 2014",
+          "icon": "fa-medal",
+          "text": "**Military Merit Award**, [Brazilian Air Force](https://www.fab.mil.br/index.php) (top 25% behavioral grades).",
+          "certificate": "certificates/2014_Military_Merit_Award.pdf"
+        },
+        {
+          "date": "November 2011",
+          "icon": "fa-trophy",
+          "color": "gold",
+          "text": "**1st place overall** in the [Brazilian Air Force Reserve Officer Training Corps (CPORAER-SJ)](https://cporaersj.dcta.mil.br/) 2011 (120 candidates).",
+          "certificate": "certificates/2011_CPORAER_SJ_1st_Place.pdf"
+        },
+        {
+          "date": "December 2010",
+          "icon": "fa-user-graduate",
+          "text": "**ITA Entrance Exam Approval** in 2010, joining the [Aeronautics Institute of Technology](https://www.ita.br/) (120 admitted students out of 7,627 applicants) in one of Brazil's most competitive entrance exams.",
+          "certificate": "certificates/2010_ITA_Entrance_Exam.pdf"
+        },
+        {
+          "date": "January 2009",
+          "icon": "fa-medal",
+          "text": "**Academic Merit Award**, [Brazilian Air Force](https://www.fab.mil.br/index.php) (top 25% military grades)."
+        },
+        {
+          "date": "October 2007",
+          "icon": "fa-medal",
+          "color": "bronze",
+          "text": "**Bronze Medal** in the **[10th Brazilian Olympiad of Astronomy and Astronautics (OBA)](https://www.oba.org.br/)** (187,726 competitors).",
+          "certificate": "certificates/2007_OBA_Bronze_Medal.pdf"
+        },
+        {
+          "date": "December 2006",
+          "icon": "fa-medal",
+          "text": "**Honorable Mention** in the **XIV Ceara Science Olympiad — Biology (OCC)**, organized by the [Federal University of Ceara (UFC)](https://www.ufc.br/pt).",
+          "certificate": "certificates/2006_UFC_Science_Biology_Olympiad.pdf"
+        },
+        {
+          "date": "December 2006",
+          "icon": "fa-medal",
+          "color": "gold",
+          "text": "**Gold Medal in the Internal Science Olympiads 2006** (Math, Physics, Biology), [Farias Brito High School](https://www.fariasbrito.com.br/).",
+          "certificate": "certificates/2006_Farias_Brito_Internal_Olympiads.pdf"
+        },
+        {
+          "date": "November 2003",
+          "icon": "fa-medal",
+          "text": "**Honor to Merit** (2nd place three times, 5th place one time) in the **Internal Mathematics Olympiad 2003**, [Christus Middle School](https://www.christus.com.br/).",
+          "certificate": "certificates/2003_Christus_Internal_Math_Olympiad.pdf"
+        },
+        {
+          "date": "October 2003",
+          "icon": "fa-trophy",
+          "color": "silver",
+          "text": "**2nd place in the 3rd Christus Exhibition of Science and Technology (EXCETEC)**, category \"Exact, Social and Commercial Sciences\".",
+          "certificate": "certificates/2003_EXCETEC_2nd_Place.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Fellowships & Grants",
+      "items": [
+        {
+          "date": "May 2026",
+          "icon": "fa-user-graduate",
+          "text": "**DAAD AInet Fellow** (AI in Neuroscience), awarded by the [German Academic Exchange Service (DAAD)](https://www.daad.de/en/the-daad/postdocnet/) in the Postdoctoral Networking Tour in Artificial Intelligence (Postdoc-NeT-AI).",
+          "results": "https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/#Dantas"
+        },
+        {
+          "date": "December 2025",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($1,000) to attend the [IEEE Winter Simulation Conference 2025](https://meetings.informs.org/wordpress/wsc2025/) in Seattle, United States."
+        },
+        {
+          "date": "December 2025",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($1,500) from the [LatinX in AI Coalition](https://www.latinxinai.org/) to attend the [LatinX in AI Research Workshop](https://www.latinxinai.org/neurips-2025) co-located with [NeurIPS 2025](https://neurips.cc/Conferences/2025) in San Diego, United States."
+        },
+        {
+          "date": "June 2025",
+          "icon": "fa-user-graduate",
+          "text": "**DAC Young Fellow** for the [Design Automation Conference (DAC) 2025](https://dac.com/).",
+          "certificate": "certificates/2025_DAC_Young_Fellow.pdf"
+        },
+        {
+          "date": "June 2025",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** (€2,900), CISB Call 15/2025, from the [Swedish‑Brazilian Research and Innovation Centre](https://cisb.org.br/) to support research at the [2025 Swedish Aerospace Congress](https://ft2025.se/).",
+          "results": "https://cisb.org.br/wp-content/uploads/2025/06/Disclosure-of-results-Call-CISB-15-2024.pdf"
+        },
+        {
+          "date": "December 2024",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($1,000) to attend the [IEEE Winter Simulation Conference 2024](https://meetings.informs.org/wordpress/wsc2024/) in Orlando, United States."
+        },
+        {
+          "date": "December 2024",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($500) to attend the [LACORO Summer School on Robotics 2024](https://www.lacoro.org/2024/) in Chile."
+        },
+        {
+          "date": "June 2024",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($1,000) to attend the [2024 Conference on Principles of Advanced Discrete Simulation (PADS)](https://sigsim.acm.org/conf/pads/2024/)."
+        },
+        {
+          "date": "May 2024",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($3,000) to attend the [UNODA-SIPRI Workshop on Responsible AI for Peace and Security](https://disarmament.unoda.org/en) in Brussels, Belgium.",
+          "certificate": "certificates/2024_UNODA_SIPRI_Award.pdf"
+        },
+        {
+          "date": "May 2024",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** (€3,150), CISB Call 13/2024, from the [Swedish‑Brazilian Research and Innovation Centre](https://cisb.org.br/) to participate in the [WARA‑PS Demonstration Week 2024](https://web.archive.org/web/20240419125501/https://portal.waraps.org/page/wara-ps-demonstration-week).",
+          "results": "https://cisb.org.br/wp-content/uploads/2024/05/Call-CISB-132024-Disclosure-of-results.pdf"
+        },
+        {
+          "date": "June 2023",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** (€3,200), CISB Call 10/2022, from the [Swedish‑Brazilian Research and Innovation Centre](https://cisb.org.br/) to participate in an AI researchers delegation in Sweden.",
+          "results": "https://cisb.org.br/images/pdf/Disclosure-of-results-CISB-Call-102022.pdf"
+        },
+        {
+          "date": "June 2023",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($1,000) to attend the [Conference on Principles of Advanced Discrete Simulation (PADS) 2023](https://sigsim.acm.org/conf/pads/2023/) in Orlando, United States.",
+          "certificate": "certificates/2023_PADS_Travel_Award.pdf"
+        },
+        {
+          "date": "April 2023",
+          "icon": "fa-plane",
+          "text": "**Travel Grant** ($2,500) to attend [Brazil at Silicon Valley 2023](https://brazilatsiliconvalley.com/) in Santa Clara, United States."
+        },
+        {
+          "date": "June 2022",
+          "icon": "fa-graduation-cap",
+          "text": "**Merit Scholarship**, [Fundacão Estudar](https://www.estudar.org.br/comunidade-de-lideres/), awarded for outstanding trajectory and academic potential (30 recipients out of 33,876 applicants).",
+          "results": "https://issuu.com/estudar/docs/fe_relatorio_2022_digital/20"
+        },
+        {
+          "date": "October 2016",
+          "icon": "fa-user-graduate",
+          "text": "**Prolider Program Fellow** 2016, selected by [Instituto Four](https://www.institutofour.org/) to participate in [Prolider](https://www.programaprolider.com.br/) (29 recipients out of 2,013 applicants).",
+          "certificate": "certificates/2016_Prolider_Fellow.pdf"
+        },
+        {
+          "date": "August 2014 — May 2015",
+          "icon": "fa-graduation-cap",
+          "text": "**Full Scholarship** (≈$75,000) from Brazil's Ministry of Education for a one-year study program at Stony Brook University, College of Engineering.",
+          "certificate": "certificates/2014_Stony_Brook_Scholarship.pdf"
+        },
+        {
+          "date": "August 2012 — July 2013",
+          "icon": "fa-flask",
+          "text": "**Undergraduate Research Fellowship**, [CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico)](https://www.gov.br/cnpq/pt-br), for the Institutional Program for Scientific Initiation Scholarships (PIBIC) at the [Aeronautics Institute of Technology](http://memoria.cnpq.br/pibic), for the project \"Automatic Data Acquisition in Plasma Tunnel Tests\".",
+          "certificate": "certificates/2013_PIBIC_Fellowship_Aquisicao.pdf"
+        },
+        {
+          "date": "August 2011 — July 2012",
+          "icon": "fa-flask",
+          "text": "**Undergraduate Research Fellowship**, [CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico)](https://www.gov.br/cnpq/pt-br), for the Institutional Program for Scientific Initiation Scholarships (PIBIC) at the [Aeronautics Institute of Technology](http://memoria.cnpq.br/pibic), for the project \"Thermionic Cathode Discharge in Low Pressure\".",
+          "certificate": "certificates/2012_PIBIC_Fellowship_Estudo.pdf"
+        },
+        {
+          "date": "January 2004 — December 2006",
+          "icon": "fa-graduation-cap",
+          "text": "**Full Scholarship** (≈$30,000) for three years at **[Farias Brito High School](https://www.fariasbrito.com.br/)**."
+        }
+      ]
+    }
+  ]
+}

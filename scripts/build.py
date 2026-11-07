@@ -23,6 +23,7 @@ from string import Template
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bibtex  # noqa: E402
+import awards  # noqa: E402
 import chrome  # noqa: E402
 import images  # noqa: E402
 
@@ -423,6 +424,9 @@ def main():
         with open(path, encoding='utf-8', newline='') as f:  # keep the page's own line endings
             original = f.read()
         updated = chrome.apply(original, active, prefix)
+        if page == 'awards.html':
+            nl = '\r\n' if '\r\n' in updated else '\n'
+            updated = replace_region(updated, 'awards', awards.sections_html().replace('\n', nl))
         if page in PAGE_IMAGE_WIDTHS:
             updated = images.rewrite_img_tags(updated, PAGE_IMAGE_WIDTHS[page])
         if updated != original:
