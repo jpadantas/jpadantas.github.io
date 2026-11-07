@@ -112,5 +112,7 @@ def sections_latex():
     for section in load():
         title = section['title'].replace('&', r'\&')
         entries = [item_latex(it) for it in section['items']]
-        out += [f'\\begin{{rSection}}{{{title}}}', '\\footnotesize', '\\\\\n'.join(entries), '\\end{rSection}', '']
+        # One paragraph per entry, with no space between them, and never split across pages
+        out += [f'\\begin{{rSection}}{{{title}}}', '\\footnotesize\\setlength{\\parskip}{0pt}\\interlinepenalty=10000',
+                '\n\n'.join(entries), '\\end{rSection}', '']
     return '\n'.join(out)
