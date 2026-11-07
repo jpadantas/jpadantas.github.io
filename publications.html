@@ -370,7 +370,14 @@
         type="text" />
     </div>
     <!-- BEGIN generated:publications (scripts/build.py; edit publications.json, bib/ or abstract/ instead) -->
-    <section class="publications-section">
+    <div class="pub-filters" role="group" aria-label="Filter publications by type">
+      <button type="button" class="pub-filter active" aria-pressed="true" onclick="filterKind('all', this)">All <span class="pub-filter-count">42</span></button>
+      <button type="button" class="pub-filter" aria-pressed="false" onclick="filterKind('journal', this)">Journals <span class="pub-filter-count">16</span></button>
+      <button type="button" class="pub-filter" aria-pressed="false" onclick="filterKind('conference', this)">Conferences <span class="pub-filter-count">22</span></button>
+      <button type="button" class="pub-filter" aria-pressed="false" onclick="filterKind('thesis', this)">Theses <span class="pub-filter-count">3</span></button>
+      <button type="button" class="pub-filter" aria-pressed="false" onclick="filterKind('preprint', this)">Pre-Prints <span class="pub-filter-count">1</span></button>
+    </div>
+    <section class="publications-section" data-kind="journal">
       <h2 class="section-title">Journals</h2>
       <!-- 2026 -->
       <div class="publication-item-with-thumb reveal" id="nunes2026stopping">
@@ -798,7 +805,7 @@
         </div>
       </div>
     </section>
-    <section class="publications-section">
+    <section class="publications-section" data-kind="conference">
       <h2 class="section-title">Conferences</h2>
       <!-- 2026 -->
       <div class="publication-item-with-thumb reveal" id="nunes2026haltsim">
@@ -1407,7 +1414,7 @@
         </div>
       </div>
     </section>
-    <section class="publications-section">
+    <section class="publications-section" data-kind="thesis">
       <h2 class="section-title">Theses</h2>
       <!-- 2025 -->
       <div class="publication-item-with-thumb reveal" id="dantas2025simulation">
@@ -1488,7 +1495,7 @@
         </div>
       </div>
     </section>
-    <section class="publications-section">
+    <section class="publications-section" data-kind="preprint">
       <h2 class="section-title">Pre-Prints</h2>
       <!-- 2023 -->
       <div class="publication-item-with-thumb reveal" id="costa2023analysis">
@@ -1663,6 +1670,17 @@
     function toggleAbstract(id) {
       const el = document.getElementById('abstract-' + id);
       if (el) el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+
+    // Show only one publication type (journal, conference, thesis, preprint) or all of them.
+    function filterKind(kind, button) {
+      document.querySelectorAll('.publications-section[data-kind]').forEach(section => {
+        section.style.display = (kind === 'all' || section.dataset.kind === kind) ? '' : 'none';
+      });
+      document.querySelectorAll('.pub-filter').forEach(b => {
+        b.classList.toggle('active', b === button);
+        b.setAttribute('aria-pressed', b === button ? 'true' : 'false');
+      });
     }
 
     function filterPublications() {

@@ -341,11 +341,26 @@ def render_list_item(p):
       </div>'''
 
 
+def render_filters(data):
+    """Buttons to show one publication type at a time, with the count of each type."""
+    total = sum(len(s['items']) for s in data['sections'])
+    buttons = [('all', 'All', total)] + [(s['kind'], s['title'], len(s['items'])) for s in data['sections']]
+    out = ['    <div class="pub-filters" role="group" aria-label="Filter publications by type">']
+    for kind, label, count in buttons:
+        active = ' active' if kind == 'all' else ''
+        pressed = 'true' if kind == 'all' else 'false'
+        out.append(f'      <button type="button" class="pub-filter{active}" aria-pressed="{pressed}" '
+                   f'onclick="filterKind(\'{kind}\', this)">{esc(label)} <span class="pub-filter-count">{count}</span></button>')
+    out.append('    </div>')
+    return '\n'.join(out)
+
+
 def render_list(data, pubs):
     by_id = {p['id']: p for p in pubs}
-    out = []
+    out = [render_filters(data)]
     for section in data['sections']:
-        out.append(f'    <section class="publications-section">\n      <h2 class="section-title">{esc(section["title"])}</h2>')
+        out.append(f'    <section class="publications-section" data-kind="{section["kind"]}">\n'
+                   f'      <h2 class="section-title">{esc(section["title"])}</h2>')
         year = None
         for item in section['items']:
             p = by_id[item['id']]
