@@ -279,6 +279,13 @@
       "kind": "conference",
       "items": [
         {
+          "id": "dantas2026integrating",
+          "venue": "Best M.Sc. Dissertation and Ph.D. Thesis Contest in Robotics (CTDR), Brazilian Robotics Symposium (SBR), 2026",
+          "thumbnail": "img/dantas2026integrating.png",
+          "thumbnail_alt": "Preview of paper: Integrating Simulation and Machine Learning for Autonomous Aerial Combat Agents",
+          "links": []
+        },
+        {
           "id": "nunes2026haltsim",
           "venue": "Simpósio de Aplicações Operacionais em Áreas de Defesa (SIGE), 2026",
           "thumbnail": "img/nunes2026haltsim.png",
