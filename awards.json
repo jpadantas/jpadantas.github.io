@@ -8,8 +8,9 @@
           "date": "November 2026",
           "icon": "fa-trophy",
           "color": "gold",
-          "text": "**1st place** in the **Best M.Sc. Dissertation and Ph.D. Thesis Contest in Robotics (CTDR)** at the **Brazilian Robotics Symposium (SBR) 2026** for best Ph.D. thesis.",
-          "certificate": "certificates/2026_CTDR_PhD_Award.pdf"
+          "text": "**1st place** in the **[Best M.Sc. Dissertation and Ph.D. Thesis Contest in Robotics (CTDR)](https://www.natalnet.br/sbr2026/ctdr.html)** at the **Brazilian Robotics Symposium (SBR) 2026** for best Ph.D. thesis.",
+          "certificate": "certificates/2026_CTDR_PhD_Award.pdf",
+          "results": "https://www.natalnet.br/sbr2026/ctdr.html#results"
         },
         {
           "date": "December 2025",
